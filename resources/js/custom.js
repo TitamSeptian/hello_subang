@@ -303,7 +303,7 @@
 				}
 				else{
 					$.ajax({
-						url: 'api/data-gallery',
+						url: '../../pages/galery/data/datagalery.html',
 						success : function(r){
 							$('.gallery .items').append(r);
 						}

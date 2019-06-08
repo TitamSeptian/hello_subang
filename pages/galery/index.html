@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello SUBANG | Gallery</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Programmer Negeri Satu Subang">
+		<meta name="description" content="360 Subang adalah sebuah website yang memudahkan masyarakat dalam mencari tempat wisata yang tepat">
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/pannellum.min.css">
+		<link rel="stylesheet" type="text/css" href="../../resources/css/animations.css">
+		<link rel="stylesheet" type="text/css" href="../../resources/css/styles.css">
+		<link rel="shortcut icon" href="../../resources/img/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="../../resources/fonts/font-awesome/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" type="text/css" href="fonts/ionicons/css/ionicons.min.css"> -->
+
+
+	</head>
+
+	<body>
+
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">
+					<a href="/home">
+						<img src="../../resources/img/logo-360-subang.svg">
+					</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							<i class="fa fa-search"></i>
+						</li>
+						<li class="toggle-menu">
+							<div class="nav one"></div>
+							<div class="nav two"></div>
+							<div class="nav three"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="sidebar hide">
+			<i class="fa fa-times"></i>
+			<div class="brand">
+				<a href="/home">
+					<span>360 SUBANG</span>
+				</a>
+			</div>
+			<ul class="menu">
+				<a href="../../">
+				<li>
+					<i class="fa fa-home"></i> Beranda
+				</li>
+				</a>
+				<a href="../tourism">
+				<li>
+					<i class="fa fa-globe"></i> Tourism
+				</li>
+				</a>
+				<a href="/">
+				<li>
+					<i class="fa fa-image"></i> Gallery
+				</li>
+				</a>
+				<a href="../about">
+				<li>
+					<i class="fa fa-info-circle"></i> About
+				</li>
+				</a>
+				<a href="../example">
+				<li>
+					<i class="fa fa-refresh"></i> 360 Example
+				</li>
+				</a>
+			</ul>
+			<div class="sign-in">
+				<a href="../login">
+					<button>
+						Login
+					</button>
+				</a>
+			</div>
+			<div class="bottom-right">
+				<img src="../../resources/img/pattern_kepalasisingaan/sudut-pattern.svg" alt="">
+			</div>
+		</div>
+
+		<div class="search">
+			<div class="close">
+				&times;
+			</div>
+			<div class="content">
+				<h1>Ketikan kata kunci</h1>
+				<form action="" method="GET">
+					<input type="search" placeholder="" id="search" name="keyword">
+					<input type="submit" name="submit" value="submit" style="display:none;" id="submit-search">
+				</form>
+			</div>
+		</div>
+		<!-- content -->
+		 <div class="viewed">
+    <div class="close">
+      &times;
+    </div>
+    <div class="content">
+      <!-- banner(gambar sisingaan) ada di styles.css -->
+      <img src="../../resources/img/gallery/7.jpg" alt="" id="img-viewed">
+      <div class="caption">
+        <h1 class="title"></h1>
+        <div class="text"></div>
+        <div class="user-upload">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="single-banner parallax" data-value="0.2">
+    <div class="caption">
+      <h1 class="title">Gallery.</h1>
+      <p class="sub-title">
+        Berbagai Poster Menarik Mengenai Wisata dan Budaya Subang
+      </p>
+      <a href="#gallery">
+        <div class="arrow">
+          <i class="fa fa-angle-down"></i>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="title">
+        <h2>GALLERY</h2>
+        <p>
+          Melihat uniknya kota Subang
+        </p>
+      </div>
+      <ul class="items">
+        <li class="item-full">
+          <div class="description" style="display:none;">
+            <div class="title">
+              <h3 style="line-height:50px;">Ciater Highland Resort</h3>
+            </div>
+            <div class="text">
+              <p>
+                 Menikmati suasana dataran tinggi di salah satu daerah subang
+              </p>
+            </div>
+            <!-- <div class="user-upload">
+              <img src="../../resources/img/people-1.jpg" alt="">
+              <h4></h4>
+            </div> -->
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="1">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/1.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Menikmati Perkebunan di Kebun Ciater</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="2">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/2.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Menangkap Ikan di Lembah Gunung Kujang</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="3">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/3.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Kebun Teh Hijau Ciater</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="4">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/4.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Ayo Pancing Ikan dan Dapatkan Ikan Monsternya</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="5">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/5.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Abadikan Foto di Daerah Perkebunan</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="6">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/6.jpg" alt="">
+        </li>
+        <li>
+          <div class="description" style="display:none;">
+            <div class="title">Biru Alam yang Indah di Curug Cibiru</div>
+            <div class="text">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusamus quaerat veritatis molestiae nulla sit obcaecati iste vel suscipit, rem odit aut itaque similique ipsa autem, recusandae quod doloribus ea. 
+              </p>
+            </div>
+          </div>
+          <div class="caption">
+            <button href="#" class="btn-flat action" data-gallery="7">
+              <i class="fa fa-search"></i> Lihat
+            </button>
+          </div>
+          <img src="../../resources/img/gallery/7.jpg" alt="">
+        </li>
+
+      </ul>
+    </div>
+    <div class="loaded"></div>
+    <button class="btn-flat load-poster">
+      <i class="fa fa-refresh"></i> Load More
+    </button>
+  </section>
+ 
+		<!-- end cotent -->
+		<footer class="footer">
+			<div class="link-upload">
+				<div class="container">
+					<p>Punya tempat wisata keren yang ingin membuat nya di kenal masyarakat ? <br> klik tombol dibawah</p>
+					<a href="/login">
+						<button class="btn">
+							Upload
+						</button>
+					</a>
+				</div>
+			</div>
+			<div class="legal">
+				<img src="../../resources/img/pattern_kepalasisingaan/sudut-pattern.svg" alt="" class="bottom-right">
+				<div class="nav">
+					<div class="brand" style="position:relative;">
+						<img src="../../resources/img/logo-360.svg" alt="">
+						<label style="position:absolute;top:20px;">
+							360 SUBANG
+						</label>
+					</div>
+					<ul class="menu">
+						<a href="https://www.facebook.com/360-Subang-775524685971241" target="_blank">
+							<li>
+									<i class="fa fa-facebook"></i>
+							</li>
+						</a>
+						<a href="https://www.instagram.com/exploresubang/?hl=id" target="_blank">
+							<li>
+									<i class="fa fa-instagram"></i>
+							</li>
+						</a>
+					</ul>
+				</div>
+				<p class="copyright">
+					&copy; 2019 TwerK's  - SMKN 1 SUBANG
+				</p>
+			</div>
+		</footer>
+
+		<!-- arrow top -->
+		<a href="#slide-banner">
+			<div class="arrow-top out">
+				<i class="fa fa-angle-double-up"></i>
+			</div>
+		</a>
+
+    <script type="text/javascript" src="../../resources/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../resources/js/jquery.parallax.js"></script>
+		<script type="text/javascript" src="../../resources/js/jquery.smooth-scroll.min.js"></script>
+		<script type="text/javascript" src="../../resources/js/pannellum.min.js"></script>
+		<script type="text/javascript" src="../../resources/js/custom.js"></script>
+	</body>
+</html>

@@ -19,7 +19,7 @@ html,body {
 /* commit */
 a{
   text-decoration: underline;
-  color: #11998e;
+  color: #5a8dff;
 }
 .arrow-top{
   position: fixed;
@@ -27,7 +27,7 @@ a{
   right: 20px;
   width: 55px;
   height: 55px;
-  background: #11998e;
+  background: #ffbc00;
   z-index: 99999999999999999999;
   line-height:55px;
   text-align: center;
@@ -93,13 +93,13 @@ a{
 .slide-banner{
   position: relative;
 }
-.slide-banner .loader{
+/*.slide-banner .loader{
   position: absolute;
   bottom: 0;
   width: 0%;
   height: 4px;
   background: linear-gradient(to right, #11998e, #38ef7d);
-}
+}*/
 /* commit */
 
 /* commit */
@@ -151,12 +151,12 @@ a{
   list-style-type: none;
   display: inline-block;
   padding: 7px;
-  border: 1.3px solid #11998e;
+  border: 1.3px solid #5a8dff;
   margin: 0px 2%;
   border-radius: 50%;
 }
 .intro .bottom .container .dots li.active{
-  background: #11998e;
+  background: #5a8dff;
   /* border-radius: 0%;
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px; */
@@ -187,7 +187,7 @@ a{
   vertical-align: middle;
 }
 .intro .bottom .container .items .border-bottom{
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   width: 100%;
   height: 3.2%;
   position: absolute;
@@ -225,7 +225,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #11998e;
+  background: #ffbc00;
   -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
           box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1); }
 
@@ -387,7 +387,7 @@ body {
   z-index: 100;
   position: relative; }
 .line hr.zag {
-  background: linear-gradient(-135deg, #16a58b 17px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #16a58b 17px, #FFFFFF 0) 0 5px;
+  background: linear-gradient(-135deg, #5a8dff 17px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #5a8dff 17px, #FFFFFF 0) 0 5px;
   background-color: rgba(0, 0, 0, 0);
   background-position: center bottom;
   background-repeat: repeat-x;
@@ -406,8 +406,8 @@ p {
     outline-offset: 0px;
   }
   .btn {
-    background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-    background: linear-gradient(to right, #11998e, #38ef7d);
+    background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+    background: linear-gradient(to right, #5a8dff, #ffbc00);
     width: 150px;
     border: none;
     color: white;
@@ -416,7 +416,7 @@ p {
     border-radius: 50px;
     font-family: proxima-regular;
     cursor: pointer;
-    box-shadow: 0.5px 2px 0px #11998e;
+    box-shadow: 0.5px 2px 0px #5a8dff;
     outline: none;
     transition: all 0.5%;
     margin-top: 30px; }
@@ -426,8 +426,8 @@ p {
   }
   .btn-flat{
     padding: 10px 20px 10px 20px;
-    background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-    background: linear-gradient(to right, #11998e, #38ef7d);
+    background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+    background: linear-gradient(to right, #5a8dff, #ffbc00);
     border-radius: 50px;
     border: none;
     color: #FFFFFF;
@@ -487,6 +487,10 @@ p {
 .navbar .menu ul .toggle-menu {
   cursor: pointer; }
 
+.navbar-theme{
+  color: linear-gradient(to right, #5a8dff, #ffbc00);
+}
+
 .sidebar {
   right: 0;
   position: fixed;
@@ -510,7 +514,7 @@ p {
   right: 10px;
   top: 30px;
   opacity: 0.9;
-  color: #2dd781;
+  color: #ffbc00;
   position: absolute;
   font-size: 24px;
   cursor: pointer;
@@ -526,7 +530,7 @@ p {
 }
 .sidebar .brand span{
   font-size: 24px;
-  color: #2dd781;
+  color: #5a8dff;
   font-weight: normal;
   margin-left: 0;
 }
@@ -609,7 +613,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   z-index: 9999999999;
   border-bottom-left-radius: 50%;
   transition: all .4s;
@@ -760,7 +764,7 @@ p {
   z-index: -1;
   border-radius: 50px; }
 .slide-banner .dots .active {
-  border: 2px solid #2dd781; }
+  border: 2px solid #ffbc00; }
 .slide-banner .fade {
   -webkit-animation-name: fade;
           animation-name: fade;
@@ -937,7 +941,7 @@ p {
   width: 84%;
   padding: 20px 8%;
   /* background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d)), url('../img/pattern_kepalasisingaan/pattern-2.svg'); */
-  background: url('../img/pattern_kepalasisingaan/pattern-2.svg'),linear-gradient(to right, #11998e, #38ef7d);
+  background: url('../img/pattern_kepalasisingaan/pattern-2.svg'),linear-gradient(to right, #5a8dff, #ffbc00);
   position: absolute;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -946,7 +950,7 @@ p {
   transform: translateY(100%);
   transition: all .4s;
   transition-delay: 1s;
-  border: 1px solid #11998e;
+  border: 1px solid #5a8dff;
 }
 .discover .content .pull-right .items .text h3{
   color: #fff;
@@ -1073,7 +1077,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('../img/pattern/mega_mendung.svg'),linear-gradient(to right, #11998e, #38ef7d);
+  background: url('../img/pattern/mega_mendung.svg'),linear-gradient(to right, #5a8dff, #ffbc00);
   opacity: 0;
   transition: all .4s;
 }
@@ -1171,8 +1175,8 @@ p {
   bottom: 20px;
   right: 20px;
   padding: 10px 20px 10px 20px;
-  background : linear-gradient(to right, #11998e, #38ef7d);
-  box-shadow: 0.5px 2px 0px #11998e;
+  background : linear-gradient(to right, #5a8dff, #ffbc00);
+  box-shadow: 0.5px 2px 0px #5a8dff;
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -1466,8 +1470,8 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 145px;
 }
 .footer .legal .nav .brand{
   width: 30%;
@@ -1483,7 +1487,7 @@ p {
 .footer .legal .nav .brand{
   font-size: 25px;
   font-weight: bold;
-  color: #1fb986;
+  color: #ffbc00;
 }
 .footer .legal .nav .brand img{
   width: 50px;
@@ -1501,7 +1505,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #FFF;
-  border: 1.5px solid #11998e;
+  border: 1.5px solid #ffbc00;
   border-radius: 50%;
   margin-right: 22px;
 }
@@ -1518,13 +1522,13 @@ p {
 .footer .legal .nav .menu li i{
   font-weight: 800;
   text-decoration: none;
-  color: #11998e;
+  color: #ffbc00;
   font-size: 15px;
   text-transform: uppercase;
 }
 .footer .legal p.copyright{
   margin-bottom: 0px;
-  color: #1fb986;
+  color: #ffbc00;
   font-weight: 800;
   margin-top: -10px;
   font-size: 14px;
@@ -1571,7 +1575,7 @@ p {
   width: 100%;
   height: 100%;
   opacity: 0.7;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
 }
 .single-banner .caption{
   position: absolute;
@@ -1719,13 +1723,13 @@ p {
   content: '';
   width: 100%;
   height: 25%;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   position: absolute;
   transform: translateY(100%);
   bottom: 0;
   opacity: 0.7;
   transition: all .3s;
-  box-shadow: 0px -2px 10px #11998e;
+  box-shadow: 0px -2px 10px #5a8dff;
 }
 .some-place .content .in-right .in-bottom ul.items li:hover::after{
   transform: translateY(0%);
@@ -1806,8 +1810,8 @@ p {
   margin-top: 0px;
 }
 .most-popular .content .item.item-ltr .above .wrapper button{
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   width: 150px;
   border: none;
   color: white;
@@ -1864,8 +1868,8 @@ p {
   margin-top: 0px;
 }
 .most-popular .content .item.item-rtl .above .wrapper button{
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   width: 150px;
   border: none;
   color: white;
@@ -2001,8 +2005,8 @@ p {
 .all-destination .content .rtl .left .top .item .caption button,.all-destination .content .rtl .left .bottom .item .caption button{
   margin: 25px 0 0 0;
   padding: 10px 20px 10px 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -2043,8 +2047,8 @@ p {
   /* margin: 25px 0 0 0; */
   float: right;
   padding: 10px 20px 10px 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -2127,8 +2131,8 @@ p {
 .all-destination .content .ltr .right .top .item .caption button,.all-destination .content .ltr .right .bottom .item .caption button{
   margin: 25px 0 0 0;
   padding: 10px 20px 10px 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -2182,8 +2186,8 @@ p {
   /* margin: 25px 0 0 0; */
   float: left;
   padding: 10px 20px 10px 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -2206,8 +2210,8 @@ p {
 }
 .all-destination .content .load-more button{
   padding: 10px 20px 10px 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: -webkit-gradient(linear, left top, right top, from(#5a8dff), to(#ffbc00));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -2235,7 +2239,7 @@ p {
   background: transparent;
   transition: all .4s;
   transition-delay: .4s;
-  background: url('../img/pattern/mega_mendung.svg') 50%,linear-gradient(to right, #11998e, #38ef7d);
+  background: url('../img/pattern/mega_mendung.svg') 50%,linear-gradient(to right, #5a8dff, #ffbc00);
   opacity: 0.5;
 }
 .all-destination .content .item .caption{
@@ -2276,7 +2280,7 @@ p {
   left: 0;
   width: 100%;
   height: 30vh;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   transform: scale(1) rotate(0deg);
   border-radius: 0px;
   opacity: 0.5;
@@ -2297,7 +2301,7 @@ p {
 .all-destination .content .category .item img{
   width: 100%;
   height: 30vh;
-  border-bottom: 2.5px solid #11998e;
+  border-bottom: 2.5px solid #5a8dff;
 }
 .all-destination .content .category .item .caption{
   position: absolute;
@@ -2514,7 +2518,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   opacity: 0.9;
   /* width: 100%; */
 }
@@ -2604,12 +2608,12 @@ p {
   height: 40px;
   margin-bottom: 6px;
   cursor: pointer;
-  background: #11998e;
+  background: #5a8dff;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   color: #fff;
   /* border-radius: 50%; */
-  border: 1px solid #11998e;
+  border: 1px solid #5a8dff;
 }
 .panorama .buttons button.button-info{
   transform: translateX(120%);
@@ -2633,7 +2637,7 @@ p {
   transition: all .4s;
 }
 .panorama .locate:hover{
-  background : #11998e;
+  background : #5a8dff;
 }
 .panorama::after{
   content: '';
@@ -2744,7 +2748,7 @@ p {
 }
 .detail .container .left .share p a i{
   padding: 15px;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50%;
   margin-left: 8px;
   box-shadow: -2px 2px 2px #ddd;
@@ -2870,7 +2874,7 @@ border-bottom: 2.5px solid rgb(62, 63, 154);
   height: 40%;
   opacity: 0.7;
   transform: translateY(0%);
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   transition: all .4s;
   transition-delay: .4s;
 }
@@ -2887,7 +2891,7 @@ border-bottom: 2.5px solid rgb(62, 63, 154);
   height: 100%;
   object-fit: cover;
   position: absolute;
-  border-bottom: 3px solid #11998e;
+  border-bottom: 3px solid #5a8dff;
   transform: scale(1);
   transition: all .4s;
   transition-delay: .8s;
@@ -3040,7 +3044,7 @@ transform: scale(1);
   height: 60%;
   transition: all .4s;
   opacity: 0.7;
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
 }
 .result .container .items li:hover::after{
   opacity: 0.5;
@@ -3107,7 +3111,7 @@ transform: scale(1);
   top: 0;
   left:0;
   transform: translate(-50%,-50%);
-  background: url('../img/pattern_kepalasisingaan/pattern-2.svg') bottom,linear-gradient(to right, #11998e, #38ef7d);
+  background: url('../img/pattern_kepalasisingaan/pattern-2.svg') bottom,linear-gradient(to right, #5a8dff, #ffbc00);
   opacity: 0;
   background-repeat: no-repeat;
   transition: all .4s;
@@ -3251,7 +3255,7 @@ transform: scale(1);
   transition-delay: .4s;
 }
 .tutorial .steps .step.active{
-  background: #11998e;
+  background: #5a8dff;
 }
 .tutorial .steps .step-hr{
   width: 100px;
@@ -3260,7 +3264,7 @@ transform: scale(1);
   transition: all .4s;
 }
 .tutorial .steps .step-hr.active{
-  background: #11998e;
+  background: #5a8dff;
 }
 .tutorial .content .description{
   margin-top: 60px;
@@ -3384,7 +3388,7 @@ transform: scale(1);
   right: 0px;
   z-index: -1;
   border-left: 100px solid transparent;
-  border-bottom: 80px solid #11998e;
+  border-bottom: 80px solid #5a8dff;
   border-top: 100px solid transparent;
 }
 .about-me .content .card:hover::after{
@@ -3903,3 +3907,4 @@ transform: scale(1);
 
 /* / commit */
 /*# sourceMappingURL=styles.css.map */
+

@@ -984,8 +984,8 @@ p {
 .top {
   width: 100%;
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 24px;
+  padding-bottom: 85px;
   background: url('../img/pattern_kepalasisingaan/pattern_kepalasisingaan.svg');
   background-repeat: no-repeat;
   background-size: 200px;

@@ -252,7 +252,7 @@
 				}
 				else {
 					$.ajax({
-						url: 'api/data-tourism',
+						url: '../../pages/tourism/data/datatourism.html',
 						success : function (r) {
 							$('.all-destination .content .data-load').append(r);
 						}

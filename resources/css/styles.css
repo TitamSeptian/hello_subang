@@ -605,6 +605,10 @@ p {
 .sidebar .fa.fa-times{
   transition: all .4s;
 }
+.sidebar .fa.fa-times.layout{
+  width: 30px;
+  height: 30px;
+}
 .sidebar .fa.fa-times:hover{
   transform: rotate(90deg);
   color: #fff;
@@ -1282,13 +1286,14 @@ p {
   cursor: pointer;
   box-shadow: 0px 0px #c6c921;
 }
-.top .content .list ul.bottom li img {
+.top .content .list ul.bottom li .img-hover {
   width: 100%;
   height: 100%;
   border-radius: 5px;
   transition: all .5s;
 }
-.top .content .list ul.bottom li:hover img{
+
+.top .content .list ul.bottom li:hover .img-hover{
   transform: scale(2.5) rotate(-25deg);
 }
 .testimonial {
@@ -1304,7 +1309,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../img/view/pondok-bali2.jpg");
+  background: url("../img/view/wisma.jpg");
   background-attachment: fixed;
   -webkit-filter: brightness(25%);
   -moz-filter: brightness(25%);
@@ -1540,18 +1545,18 @@ p {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url('../img/discovery/sisingaan2.jpg') center;
+  background: url('../img/subang/subang3.jpg') center;
   background-size: cover;
   background-attachment: fixed;
 }
 .single-banner.tourism{
-  background: url('../img/discovery/tugu-selamat-datang.jpg') center;
+  background: url('../img/subang/subang2.jpg') center;
   background-size: cover;
   /* animation: bg-single-banner 15s infinite; */
   background-attachment: fixed;
 }
 .single-banner.about{
-  background: url('../img/discovery/subang-utara.jpg') center;
+  background: url('../img/subang/subang1.jpg') center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1730,7 +1735,7 @@ p {
   opacity: 0.7;
   transition: all .3s;
   box-shadow: 0px -2px 10px #5a8dff;
-  margin-left: 110px;
+  margin-left: -100%;
   /*size: 100%;*/
 }
 .some-place .content .in-right .in-bottom ul.items li:hover::after{
@@ -3408,7 +3413,7 @@ transform: scale(1);
   min-height: 200px;
   max-width: 100%
 }
-.about-me .content .card #img-dian{
+.about-me .content .card #img-bintang{
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -3912,6 +3917,34 @@ transform: scale(1);
     .intro .pull-right img{
       display: none;
     }
+  }
+  .layout-1{
+    width: 10px;
+    height: 10px;
+  }
+  .layout-2{
+    width: 20px;
+    height: 20px;
+  }
+  .layout-3{
+    width: 30px;
+    height: 30px;
+  }
+  .layout-4{
+    width: 40px;
+    height: 40px;
+  }
+  .layout-5{
+    width: 50px;
+    height: 50px;
+  }
+  .layout{
+    width: 5px;
+    height: 5px;
+  }
+  .layout-thin{
+    width: 10px;
+    height: 20px;
   }
  /* .img_dev{
     width: 100%

@@ -3381,6 +3381,7 @@ transform: scale(1);
   border-radius: 3px;
   position: relative;
   overflow: hidden;
+  max-height: 700px;
 }
 .about-me .content .card::after{
   content: '';
@@ -3396,17 +3397,22 @@ transform: scale(1);
 
 }
 .about-me .content .card .bg-image{
+  max-height:400px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
+  min-height: 200px;
+  max-width: 100%
 }
 .about-me .content .card #img-dian{
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  /*max-height:100%;*/
+  max-width: 100%;
 }
 .about-me .content .card .bg-image img{
   width: 100%;
@@ -3905,6 +3911,10 @@ transform: scale(1);
       display: none;
     }
   }
+ /* .img_dev{
+    width: 100%
+    height: 403.2px;
+  }*/
 
 /* / commit */
 /*# sourceMappingURL=styles.css.map */

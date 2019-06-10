@@ -1088,9 +1088,6 @@ p {
 .top .content .list ul.top li:hover::after{
   opacity: 0.5;
 }
-.top .content .list ul.bottom li:hover::after{
-  opacity: 0.5;
-}
 .top .content .list ul.top li .caption {
   position: absolute;
   top: 0;
@@ -1142,11 +1139,11 @@ p {
 .top .content .list li:hover .caption .pull-left .label p.rating{
   text-shadow: 0px 0px 8px #555;
 }
-.top .content .list li .caption .pull-left .label p.rating i{
+.top .content .list li .caption .pull-left .label p.rating .img-star{
   transition: all .4s;
   transition-delay: .8s;
 }
-.top .content .list li:hover .caption .pull-left .label p.rating i{
+.top .content .list li:hover .caption .pull-left .label p.rating .img-star{
   transform: scale(1.6);
 }
 .top .content .list ul.top li .caption .label .rating{

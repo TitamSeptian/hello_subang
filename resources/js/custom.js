@@ -222,9 +222,7 @@
 				"margin-bottom": "10px",
 
 			}).html("");
-			$('.all-destination .content').css({
-				"height": "calc(230vh + 50px)"
-			});
+
 			$('<div/>', {
 				"class": "lds-ellipsis"
 			}).appendTo('.loaded');
@@ -240,7 +238,9 @@
 			$('<div/>').css(dataCss).appendTo('.lds-ellipsis');
 
 			setTimeout(function () {
-				$('.loaded').html('Destinasi telah habis.');
+
+				$('.loaded').html('Destination telah habis.');
+
 			}, 1000);
 		});
 

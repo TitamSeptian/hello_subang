@@ -568,6 +568,12 @@ p {
   /* transform:scaleY(1); */
   transform: translate(0%,0%);
 }
+.sidebar .menu li img{
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+}
+
 .sidebar .menu a{
   text-decoration: none;
   color: #FFFF;
@@ -1521,18 +1527,17 @@ p {
 .footer .legal .nav .menu a:last-child{
   margin-right: 0px;
 }
-.footer .legal .nav .menu li i{
-  font-weight: 800;
-  text-decoration: none;
-  color: #ffbc00;
-  font-size: 15px;
-  text-transform: uppercase;
+.footer .legal .nav .menu li img{
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
 }
+
 .footer .legal p.copyright{
   margin-bottom: 0px;
   color: #ffbc00;
   font-weight: 800;
-  margin-top: -10px;
+  margin-top: 20px;
   font-size: 14px;
 }
 
@@ -2090,6 +2095,7 @@ p {
   width: 100%;
   display: table;
   margin-top: -4px;
+  margin-bottom: 5%;
 }
 .all-destination .content .ltr .right{
   width: 50%;
@@ -2559,6 +2565,17 @@ p {
   opacity: 1;
   transform: translateY(0%);
 }
+.panorama .info-destination.active .content p img{
+  width:20px;
+  height:20px;
+  margin-bottom: -2px;
+}
+.panorama .info-destination.active .content img{
+  opacity: 1;
+  transform: translateY(0%);
+  width: 100px;
+  height: 20px;
+}
 .panorama .info-destination .content button{
   margin-top: 30px;
   box-shadow: 1px 1px 8px #777;
@@ -2751,8 +2768,8 @@ p {
   text-decoration: none;
   color: #FFF;
 }
-.detail .container .left .share p a i{
-  padding: 15px;
+.detail .container .left .share p a img{
+  padding: 12px;
   background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50%;
   margin-left: 8px;
@@ -2784,6 +2801,11 @@ p {
 }
 .detail .container .left .title h1{
   font-size: 26px;
+}
+.detail .container .left .title p img{
+  width:20px;
+  height:20px;
+  margin-bottom: -2px;
 }
 .detail .container .left .title h1 span{
   padding-bottom: 5px;
@@ -2916,6 +2938,10 @@ border-bottom: 2.5px solid rgb(62, 63, 154);
 .other-dest .container .items li .caption p{
   color: #eee;
   margin-top: -10px;
+}
+.other-dest .container .items li .caption p img{
+  width: 10px;
+  height: 10px;
 }
 .other-dest .container .items li .button{
   position: absolute;
@@ -3444,6 +3470,10 @@ transform: scale(1);
     border-right: 1px solid red;
   } */
   /* index */
+  .top .content ul.bottom .caption .identity{
+    width:100%;
+  }
+
   .slide-banner .dots{
     right: 20px;
     top: 55%;
@@ -3558,6 +3588,7 @@ transform: scale(1);
   }
   .top .content .dots{
     display: block;
+    margin-top: 45%;
   }
   .top .content .list ul.top li,.top .content .list ul.bottom li{
     width: 48.72%;
@@ -3628,7 +3659,15 @@ transform: scale(1);
     width: 32px;
     height: 32px;
     line-height: 33px;
+    padding: 7px;
   }
+
+  .footer .legal .nav .menu li img{
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+  }
+
   .footer .legal .nav .menu a{
     margin-right: 6px;
   }
@@ -3778,6 +3817,10 @@ transform: scale(1);
   .other-dest .container .items li .caption p{
     font-size: 11px;
   }
+  .other-dest .container .items li .caption p img.location{
+    width: 5px;
+    height: 5px;
+  }
   .other-dest .container .items li:first-child{
     border-right: 1px solid #FFF;
   }
@@ -3869,6 +3912,13 @@ transform: scale(1);
       margin-top: 8px;
       height: 300px;
     }
+
+    .footer .legal .nav .menu li img{
+      width: 25px;
+      height: 25px;
+      margin-top: 3px;
+      padding: 2px;
+    }
   }
 
   @media (max-width:696px) {
@@ -3914,7 +3964,42 @@ transform: scale(1);
     .intro .pull-right img{
       display: none;
     }
+
+    .top .content .dots{
+      display: block;
+      margin-top: 45%;
+    }
+
+    .footer .legal .nav .menu li img{
+      width: 25px;
+      height: 25px;
+      margin-top: 3px;
+      padding: 2px;
+    }
   }
+
+  @media (max-width:650px){
+    .top .content .dots{
+      display: block;
+      margin-top: 52%;
+    }
+  }
+
+  @media (max-width:550px){
+    .top .content .dots{
+      display: block;
+      margin-top: 64%;
+    }
+  }
+
+  @media (max-width:455px){
+    .top .content .dots{
+      display: block;
+      margin-top: 70%;
+    }
+  }
+
+
   .layout-1{
     width: 10px;
     height: 10px;

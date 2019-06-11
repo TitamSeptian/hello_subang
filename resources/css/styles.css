@@ -1260,7 +1260,7 @@ p {
 .top .content .list ul.bottom li .caption .container button {
   margin: 25px 0 0 0;
   padding: 10px 20px 10px 20px;
-  background: linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125));
+  background: linear-gradient(to right, #5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;

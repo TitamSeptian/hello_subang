@@ -1260,7 +1260,7 @@ p {
 .top .content .list ul.bottom li .caption .container button {
   margin: 25px 0 0 0;
   padding: 10px 20px 10px 20px;
-  background: linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125));
+  background: linear-gradient(to right,#5a8dff, #ffbc00);
   border-radius: 50px;
   border: none;
   color: #FFFFFF;
@@ -1269,7 +1269,7 @@ p {
   transition: all .4s;
   transition-delay: 1.2s;
   cursor: pointer;
-  box-shadow: rgb(17, 153, 142) 0.5px 2px 0px;
+  box-shadow: #5a8dff, 0.5px 2px 0px;
 }
 .top .content .list ul.bottom li:hover .caption .container button{
   transform: translate(0%,0%) scale(1);
@@ -1609,7 +1609,7 @@ p {
   border: 1px solid transparent;
   transition: all .5s;
 }
-.single-banner .caption .arrow i{
+.single-banner .caption .arrow .arrow-down{
   animation: single-banner-arrow 2s infinite;
 }
 @keyframes single-banner-arrow {
@@ -4027,6 +4027,9 @@ transform: scale(1);
   .layout-thin{
     width: 10px;
     height: 20px;
+  }
+  .imgrot{
+    transform: rotate(180deg)
   }
  /* .img_dev{
     width: 100%

@@ -278,13 +278,13 @@
 				var countImage = 10;
 
 				if ($(this).data('image-load') >= countImage) {
-					$('.loaded').html("gambar dan poster telah habis.");
+					$('.loaded').html("gambar dan poster telah hapbis.");
 				} else {
 					$.ajax({
 						url: '../../pages/galery/data/datagalery.html',
 						success: function (r) {
 							$('.gallery .container .items').append(r);
-							console.info("rrrr  "+r)
+							// console.info("rrrr  "+r)
 						}
 					});
 					$('.loaded').html('');

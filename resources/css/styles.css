@@ -454,6 +454,7 @@ p {
   width: 150px;
   padding-top: 3.5vh;
   float: left;
+
 }
 .navbar .logo img{
   width: 100%;
@@ -3997,6 +3998,31 @@ transform: scale(1);
       display: block;
       margin-top: 70%;
     }
+  }
+
+    @media (max-width:415px){
+    .top .content .dots{
+      display: block;
+      margin-top: 77%;
+    }
+  }
+
+   @media (max-width:415px){
+    .slide-banner .slide .slide-content .caption h2 {
+    font-size: 30px;
+    line-height: 44px;
+    color: white;
+    font-weight: 550; }
+  }
+  @media (max-width:370px){
+      .navbar .logo{
+        width: 110px;
+        padding-top: 5vh;
+        /*float: left;*/
+      }
+      .navbar .logo img{
+        width: 100%;
+      }
   }
 
 

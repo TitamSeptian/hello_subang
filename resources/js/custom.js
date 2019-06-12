@@ -283,7 +283,8 @@
 					$.ajax({
 						url: '../../pages/galery/data/datagalery.html',
 						success: function (r) {
-							$('.gallery .items').append(r);
+							$('.gallery .container .items').append(r);
+							console.info("rrrr  "+r)
 						}
 					});
 					$('.loaded').html('');
@@ -419,7 +420,8 @@
 		// $('.some-place .content .in-left').load('assets/img/maps-bw.svg');
 	});
 
-	$('.gallery .container .items li .caption button.action').click(function () {
+	$('body').delegate('.gallery .container .items li .caption button.action', 'click', function () {
+		
 		var image = $(this).parent('div').siblings('img').attr('src');
 		var title = $(this).parent('div').siblings('.description').children('.title').html();
 		var text = $(this).parent('div').siblings('.description').children('.text').html();
@@ -448,6 +450,40 @@
 		$(".caption-switcher").hide();
 		$("#caption" + n).show();
 	}
+	// loaded
+	function dataView(argument) {
+		alert("heo");
+	}
+	$('.data-view').on('click', function () {
+		dataView();
+		// var image = $(this).parent('div').siblings('img').attr('src');
+		// var title = $(this).parent('div').siblings('.description').children('.title').html();
+		// var text = $(this).parent('div').siblings('.description').children('.text').html();
+		// var userUpload = $(this).parent('div').siblings('.description').children('.user-upload').html();
+		// var view = $('.viewed');
+
+		// view.addClass('active');
+		// view.find('.title').html(title);
+		// view.find('.text').html(text);
+		// view.find('#img-viewed').attr('src', image);
+		// view.find('.user-upload').html(userUpload);
+
+		// $('body').css({
+		// 	"overflow": "hidden"
+		// })
+	});
+
+	// $('.viewed .close').click(function () {
+	// 	$('.viewed').removeClass('active');
+	// 	$('body').css({
+	// 		"overflow": "auto"
+	// 	})
+	// });
+
+	// function selectStep(n) {
+	// 	$(".caption-switcher").hide();
+	// 	$("#caption" + n).show();
+	// }
 
 
 	// var slideIndex = 1;
